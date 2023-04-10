@@ -17,11 +17,21 @@
 $Question = [];
 foreach ($_POST as $key => $value) {
     if (explode("X", $key)[1] == "Q") {
-        $Question[$key[1]] = [
-            "Question" => $value,
-        ];
+        if ((int) $key[1].$key[2] != $key[1]."X") {
+            $Question[$key[1].$key[2]] = [
+                "Question" => $value,
+            ];        } else {
+                $Question[$key[1]] = [
+                    "Question" => $value,
+                ];
+        }
+
     } elseif (explode("X", $key)[1] == "R") {
-        $Question[$key[1]][$value] = explode("_",$key)[1];
+        if ((int) $key[1].$key[2] != $key[1]."R") {
+            $Question[$key[1].$key[2]][$value] = explode("_",$key)[1];
+        } else {
+            $Question[$key[1]][$value] = explode("_",$key)[1];
+        }
     }
 }
 echo "</br>ARRAY GENERATED! : ";

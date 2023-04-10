@@ -1,59 +1,148 @@
 {
   "1": {
-    "Question": "ET... INFORMATIQUE: question 1 = facile \u00e0 qui appartient TWITTER",
-    "Jeff Besos": "F",
-    "Marine Lepen(sil \ud83d\udd8a\ufe0f  \ud83d\ude02)": "F",
-    "Elon Musk": "T",
-    "Google": "F"
+    "Question": "Qu'est-ce que le protocole \"http\"",
+    "WTF": "F",
+    "Un syst\u00eame d'expoitation pour les site web...": "F",
+    "Un protocole de connexion entre l'utilisateur et le serveur": "T",
+    "Une adresse web": "F"
   },
   "2": {
-    "Question": "La suisse \u00e0 d\u00e9ja \u00e9t\u00e9 en quard de finale?",
-    "faux": "F",
-    "vrai": "T"
+    "Question": "Que fait la fonction JavaScript : window.close() [INDICE : JavaScript est un language pour les site web]",
+    "Ouvre une nouvelle page": "F",
+    "modifi la BDD \u00e0 l'aide d'une fonction de POO par un protocol SSH+CRSX+HTTPS": "F",
+    "ferme la page web": "T",
+    "ferme le naviguateur": "F"
   },
   "3": {
-    "Question": "partie no\u00ebl : Quand ouvre-on les cadeaux?",
-    "23": "F",
-    "24": "F",
-    "25": "T",
-    "3463464365": "F"
+    "Question": "Quel est l'adresse de google?",
+    "question.google.com": "F",
+    "google.com/recherche": "F",
+    "https://google.com": "T",
+    "mailto: google.com": "F"
   },
   "4": {
-    "Question": "SI : (n=71,377686213/o=561*X53\u221a43/e=8712678236783426762378624356767/l=0)          combient fait ce calcul? : noel",
-    "4356564,4358973287968723657867834678546782437852347864352786453786345765348": "F",
-    "125,432": "F",
-    "l*(o/n)": "T",
-    "CETTE QUESTION EST facile INDICE : regarder le \"l\" /!\\ NE CLIQUER PAS SUR": "F"
+    "Question": "Qu'est-ce que le fichier ZIP",
+    "J'ai pas d'autre id\u00e9es...": "F",
+    "un fichier pull-avec-une-zippe": "F",
+    "Un fichier qui en conitient d'autres": "T",
+    "Un virus": "F"
   },
   "5": {
-    "Question": "Comment \u00e9crit-on \"O-R-T-O-G-R-A-F-E\"",
-    "ortographe": "F",
-    "aurthographe": "F",
-    "orthographe": "T",
-    "orlhographe": "F"
+    "Question": "function revalQuetsion(question) { alert(`la bonne r\u00e9ponse est le ${question}`;}; revalQuetsion(\"rouge\")",
+    "Il affichera Bleu": "F",
+    "Vert": "F",
+    "Rouge": "T",
+    "Jaune": "F"
   },
   "6": {
-    "Question": "l'angleterre est-elle dans l'union europ\u00e9enne?",
-    "Vrai": "F",
-    "Faux": "T"
+    "Question": "RAPIDIT\u00c9 : 2+2",
+    "2": "F",
+    "5": "F",
+    "4": "T",
+    "6": "F"
   },
   "7": {
-    "Question": "Mario c'est un film ou un jeu vid\u00e9o ?",
-    "FILM": "F",
-    "???": "F",
-    "LES DEUX": "T",
-    "JEUX VIDEO": "F"
+    "Question": "100/3",
+    "789612347836786453278345678653478653456473564356784537635474357867834587675": "F",
+    "20": "F",
+    "33,333333333333333333333333333333333333333333333333333333333333333333333333": "T",
+    "25": "F"
   },
   "8": {
-    "Question": "ENFIN LA QUESTION 8! FACILE QUI A CODE CE QUIZ",
-    "Tim-Berner-Lee": "F",
-    "Jean-Cabot": "F",
-    "Lyam Zambaz": "T",
-    "Liam Zambaz": "F"
+    "Question": "Distance terre-lune",
+    "150000000": "F",
+    "56 543 456": "F",
+    "384\u202f400": "T",
+    "4 645 667": "F"
   },
-  "9": {
-    "Question": "\"aminom\u00e9thylpyrimidinylhydroxy\u00e9thylm\u00e9thythiazoliun\" est-il un mot?",
-    "Vrai": "F",
-    "Faux": "T"
+  "9": { "Question": "6,10>6,2", "Vrai": "F", "Faux": "T" },
+  "10": {
+    "Question": "combien de terre peut contenir le soleil?",
+    "14000": "F",
+    "2300000": "F",
+    "1000000": "T",
+    "1000000000": "F"
+  },
+  "11": {
+    "Question": "QUESTION CHANCE: MET UNE R\u00c9PONSE AU HASARD...",
+    "ewrf": "F",
+    "werfwerf": "F",
+    "erwfewrfewrfwerf": "T",
+    "werfewrfwerf": "F"
+  },
+  "12": {
+    "Question": "Quand je suis n\u00e9",
+    "Le 22 octobre 1967": "F",
+    "Le 17 mars 200": "F",
+    "30 aut 2009": "T",
+    "Le 3 juillet 2009": "F"
+  },
+  "13": {
+    "Question": "Je suis n\u00e9 _______.",
+    "\u00e0 Munich, Allemagne": "F",
+    "\u00e0 venthone": "F",
+    "\u00e0 sion": "T",
+    "\u00e0 Budapest, Hongrie": "F"
+  },
+  "14": {
+    "Question": "2nd guerre mondiale",
+    "1914-1918": "F",
+    "1939-1944": "F",
+    "1939-1945": "T",
+    "2039-2045": "F"
+  },
+  "15": {
+    "Question": "L'homme est all\u00e9 sur la lune",
+    "Faux": "F",
+    "Vrai": "T"
+  },
+  "16": {
+    "Question": "Comment installer chome (windwos)",
+    "Je sais pas": "F",
+    "Maman": "F",
+    "taper \"Chome downald\" sur google": "T",
+    "aller sur l'apple store": "F"
+  },
+  "17": {
+    "Question": "Languages des sites web",
+    "Python": "F",
+    "Java": "F",
+    "HTML": "T",
+    "CSS": "F"
+  },
+  "18": {
+    "Question": "Un aff\u00fbt est :",
+    "Sortir entre amis": "F",
+    "aller au toilettes": "F",
+    "Allez en Nature pour voir des animeaux": "T",
+    "manger des bonbons": "F"
+  },
+  "19": {
+    "Question": "Le m\u00e9tier de mes r\u00eaves est ___________.",
+    "Responsable du marketing": "F",
+    "Infirmi\u00e8re": "F",
+    "Informatitien": "T",
+    "Musitien": "F"
+  },
+  "20": {
+    "Question": "Capitale :",
+    "Sion": "F",
+    "Cran Montana": "F",
+    "Paris": "T",
+    "New York": "F"
+  },
+  "21": {
+    "Question": "Bonjours en Italien",
+    "Bnongiorno": "F",
+    "Pepperoni": "F",
+    "Buongiorno": "T",
+    "Hola": "F"
+  },
+  "22": {
+    "Question": "Artemis",
+    "2nd Station spatiale": "F",
+    "ISS": "F",
+    "Lune": "T",
+    "Mars": "F"
   }
 }

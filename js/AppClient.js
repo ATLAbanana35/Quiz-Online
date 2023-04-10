@@ -131,8 +131,12 @@ if (document.querySelector("username").textContent !== "NOT CONNECTED!") {
               elements2.style.background = "rgb(25, 31, 32)";
             });
             elements.style.background = "red";
-            setInterval(() => {
-              location.reload();
+            setTimeout(() => {
+              index--;
+              true2 = true;
+              if (index < 0) {
+                index = 0;
+              }
             }, 1000);
           }
         });
