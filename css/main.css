@@ -1,0 +1,67 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #282a36;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  user-select: none;
+  transition: 1s;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #282a36;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  user-select: none;
+  transition: 1s;
+}
+
+main question-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+}
+main question-header {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main question-main choice {
+  background: rgb(25, 31, 32);
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+main question-main choice:hover {
+  background: rgb(46, 53, 54);
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  transform: scale(1.1);
+}
+main question-main choice:active {
+  background: rgb(46, 53, 54);
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  transform: scale(0.9);
+}
