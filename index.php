@@ -1,5 +1,11 @@
+<?php
+if (!empty($_POST["user"])) {
+  setcookie("USER_QUIZ", $_POST["user"], time()+283728, "/");
+  header("Location: index.php");
+}
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8" />
@@ -12,12 +18,12 @@
     <link rel="stylesheet" href="./css/class.css" />
     <data-js style="display: none;">
         <username><?php
-if (!empty($_COOKIE["USERSP"])) {
-  echo $_COOKIE["USERSP"];
+if (!empty($_COOKIE["USER_QUIZ"])) {
+  echo $_COOKIE["USER_QUIZ"];
 } else {
   echo "NOT CONNECTED!";
+  header("Location: ./client/connect.html");
 }
-setcookie("USERSP", "ATLAbanana35" , time() + 1000000, "/", "localhost")
 ?></username>
     </data-js>
 </head>
@@ -26,8 +32,8 @@ setcookie("USERSP", "ATLAbanana35" , time() + 1000000, "/", "localhost")
     <header>
         <img src="./img/ACCOUNT_IMAGE.png" alt="ACCOUNT_IMAGE" />
         Connecté en tant que : <?php
-if (!empty($_COOKIE["USERSP"])) {
-  echo $_COOKIE["USERSP"];
+if (!empty($_COOKIE["USER_QUIZ"])) {
+  echo $_COOKIE["USER_QUIZ"];
 } else {
   echo "NOT CONNECTED!";
 }
